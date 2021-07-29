@@ -12,10 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class MphasisBookApplication {
+public class BookApplication {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(MphasisBookApplication.class, args);
+		SpringApplication.run(BookApplication.class, args);
 	}
 
 }
