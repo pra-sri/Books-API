@@ -1,0 +1,35 @@
+Read Me:
+
+1. run the sql server, note the port and URL
+2. use the sql credential and update in application.properties
+3. run the tableScript.sql file 
+4. Run the MphasisBookApplication.java as ‘java application’(in eclipse, option may vary according to the ide)
+5. Open PostMan to test:
+
+	1. Get Book details using BookId 
+
+		Hit the http://localhost:8765/1 URL for getting the book details of book with 			BookId as 1.
+
+	2.     Get Book details by searching the title according to any word 
+		Hit the http://localhost:8765/Harry URL ; it must give all the book which have “Harry” in 		their title.
+
+	3.    Add a new Book :
+		Hit the http://localhost:8765/addbook URL using the POST method, input the 		following value in raw JSON format 
+
+{
+"bookID": 13,
+"title": "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Sto Hitchhiker's Guide to the Galaxy  #1-5)",
+"authors": "Douglas Adams",
+"averageRating": 4.38,
+"isbn": 517226952,
+"languageCode": "eng",
+"ratings_count": 3602,
+"price": 238
+}
+		This must return a success message with the BookId.
+
+Note: Please use:
+		“averageRating” 	instead of 	“average_rating”
+		“languageCode” 	instead of 	“language_code”
+		“ratingCount”		instead of 	“ratings_count”
+	In the JSON while adding the book details.
