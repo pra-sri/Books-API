@@ -28,6 +28,7 @@ Read Me:
 				}
 		This must return a success message with the BookId.
 
+
 Note: Please use:
 		“averageRating” 	instead of 	“average_rating”
 		“languageCode” 	instead of 	“language_code”
