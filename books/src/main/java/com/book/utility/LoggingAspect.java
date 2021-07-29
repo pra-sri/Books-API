@@ -1,4 +1,4 @@
-package com.mphasis.utility;
+package com.book.utility;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

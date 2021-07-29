@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.mphasis.dto;
+package com.book.dto;
 
 /**
  * @author prasri1601@outlook.com

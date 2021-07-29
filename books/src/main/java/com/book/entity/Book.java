@@ -1,4 +1,4 @@
-package com.mphasis.entity;
+package com.book.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

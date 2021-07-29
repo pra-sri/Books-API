@@ -1,4 +1,4 @@
-package com.mphasis.service;
+package com.book.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +9,10 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mphasis.dto.BookDTO;
-import com.mphasis.entity.Book;
-import com.mphasis.repository.BookRepository;
-import com.mphasis.exception.MphasisBookException;
+import com.book.dto.BookDTO;
+import com.book.entity.Book;
+import com.book.exception.MphasisBookException;
+import com.book.repository.BookRepository;
 
 @Service(value = "bookService")
 @Transactional

@@ -1,4 +1,4 @@
-package com.mphasis.exception;
+package com.book.exception;
 
 public class MphasisBookException extends Exception{
 	

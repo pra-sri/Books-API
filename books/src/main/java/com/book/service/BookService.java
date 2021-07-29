@@ -1,9 +1,9 @@
-package com.mphasis.service;
+package com.book.service;
 
 import java.util.List;
 
-import com.mphasis.dto.BookDTO;
-import com.mphasis.exception.MphasisBookException;
+import com.book.dto.BookDTO;
+import com.book.exception.MphasisBookException;
 
 
 public interface BookService {

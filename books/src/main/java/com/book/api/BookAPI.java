@@ -1,4 +1,4 @@
-package com.mphasis.api;
+package com.book.api;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.mphasis.dto.BookDTO;
-import com.mphasis.exception.MphasisBookException;
-import com.mphasis.service.BookService;
+import com.book.dto.BookDTO;
+import com.book.exception.MphasisBookException;
+import com.book.service.BookService;
 
 
 @RestController
