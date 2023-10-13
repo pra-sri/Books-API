@@ -66,5 +66,16 @@
 - **Infosys Certified Python Programmer**
 
 ## PERSONAL DETAILS
-- *Total Experience*: 2 Years
-- 
+- *Total Experience*: 2 Years 8 Months
+- *Current Location*: Gurgaon/Gurugram
+- *Date of Birth*: July 16, 1998
+- *Gender*: Male
+
+## CONTACT INFORMATION
+- *Mobile*: +91-9695631011
+- *Email*: prakhar740@gmail.com
+
+## LINKS
+- [LinkedIn Profile](https://www.linkedin.com/in/prakhar-srivastava-9334a7185/)
+- [Medium Blog](https://medium.com/@prakhar740)
+- [GitHub Profile](https://github.com/pra-sri)
